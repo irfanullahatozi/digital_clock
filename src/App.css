@@ -1,5 +1,8 @@
 .App {
   background-color: #111827;
+  background-image:
+      radial-gradient(at 47% 33%, hsl(23, 100%, 65%), transparent 59%),
+      radial-gradient(at 82% 65%, hsl(188, 100%, 42%), transparent 55%);
   color: white;
   height: 100vh;
   display: flex;
@@ -11,10 +14,10 @@
 .container {
   border-radius: 20px;
   width: 30rem;
-  background-color: #111927;
+  background-color: #4c4c4c;
   background-image:
-      radial-gradient(at 47% 33%, hsl(162.00, 77%, 40%) 0, transparent 59%),
-      radial-gradient(at 82% 65%, hsl(218.00, 39%, 11%) 0, transparent 55%);
+      radial-gradient(at 47% 33%, hsl(62, 93%, 48%), transparent 80%),
+      radial-gradient(at 82% 65%, hsl(143, 86%, 48%), transparent 80%);
 }
 
 .card {
